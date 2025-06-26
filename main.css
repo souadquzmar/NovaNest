@@ -55,11 +55,15 @@ body{
     flex-wrap: wrap;
     flex-direction: column;
     gap: 10px;
-    height: 300px;
     margin: 30px;
-    
     font-size: 18px;
     color: #687FE5;
+    height: 300px;
+}
+@media screen and (max-width: 895px) {
+    .categories-list{
+        height: fit-content;
+    }
 }
 .categories-list a{
     color: black;
@@ -74,7 +78,7 @@ body{
 .categorie-products{
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 20px;
     padding: 30px;
 }
 .categorie-products .product{
@@ -88,7 +92,7 @@ body{
     border-radius: 5px;
     box-shadow: 0 5px 10px rgba(0,0,0,.1);
     text-align: center;
-    width: 23%;
+    
 }
 .categorie-products img{
     width: 100%;
