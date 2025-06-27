@@ -1,38 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./main.css"/>
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/main.css" />
+  </head>
+  <body>
     <header class="header">
-        <div class="logo">
-            <a href="./index.html">NovaNest</a>
-        </div>
-        <nav class="nav-bar">
-            <ul>
-                <li>
-                    <a href="./index.html">Home</a>
-                </li>
-                <li>
-                    <a href="./categories.html">Categories</a>
-                </li>
-            </ul>
-        </nav>
+      <div class="logo">
+        <a href="./index.html">NovaNest</a>
+      </div>
+      <nav class="nav-bar">
+        <ul>
+          <li>
+            <a href="./index.html">Home</a>
+          </li>
+          <li>
+            <a href="./categories.html">Categories</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <main class="categories-details">
-        <h2>Products</h2>
-        <div class="categorie-products">
-            
+      <h2>Products</h2>
+      <div class="categorie-products"></div>
+
+      <div class="my-modal d-none">
+        <div class="img">
+          <i class="fa-solid fa-circle-xmark close-btn"></i>
+          <i class="fa-solid fa-arrow-left left-btn"></i>
+          <img class="modal-img" />
+          <i class="fa-solid fa-arrow-right right-btn"></i>
         </div>
+      </div>
     </main>
 
-    <script src="./products.js"></script>
-</body>
+    <script src="./assets/products.js"></script>
+  </body>
 </html>
